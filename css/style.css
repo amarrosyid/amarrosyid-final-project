@@ -1,0 +1,241 @@
+
+body {
+    font-family: "Poppins", sans-serif;
+  }
+
+header {
+  background-color: #25b79f;
+  height: 100vh;
+}
+
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+}
+
+/* Navbar */
+
+@media (orientation: landscape) and (max-height: 500px) {
+  .header {
+    height: 90vmax;
+  }
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 500;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+}
+
+.menu-items {
+  display: flex;
+}
+
+.menu-items li {
+  list-style: none;
+  padding: 10px;
+}
+
+.menu-items a {
+  text-decoration: none;
+  color: #f0f0e6;
+  font-size: 12pt;
+  padding: 3px;
+}
+
+.navbar-logo a{
+  color: #ffffff;
+  font-size: 20pt;
+  font-style: bold;
+  list-style: none;
+}
+
+/* Home Page */
+#home-page .name {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #07374a;
+  width: 100%;
+  text-align: center;
+}
+
+#home-page .name h1 {
+  font-size: 40pt;
+  text-align: center;
+}
+#home-page .name p {
+  color: #f0f0e6;
+  font-size: 24pt;
+}
+
+/* About */
+
+#about {
+  background-color: #07374a;
+  padding: 3px;
+  height: 100vh;
+
+}
+.about-me {
+  background-color: #07374a;
+  padding: 6rem 0;
+
+}
+
+.about-me .about-heading {
+  color: #25b79f;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.about-content img {
+  height: 200px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-left: 45%;
+}
+
+.about-content p {
+  font-size: 1.2rem;
+  color: #f0f0e6;
+  padding: 0 2.3rem;
+  text-align: center;
+}
+
+.about-content img {
+  height: 200px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  position: center;
+}
+
+.about-content p {
+  font-size: 1.2rem;
+  color: #f0f0e6;
+  padding: 0 2.3rem;
+  text-align: center;
+}
+
+/* experiences */
+#experience {
+  background-color: #25b79f;
+  padding: 3px;
+  height: 100vh;
+}
+.top-experience{
+  margin-top: 100px;
+  position: center;
+  margin-left: 3%;
+}
+
+#experience h1 {
+    font-family: 'Black Ops One', cursive;
+    text-decoration: underline;
+    margin-bottom: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+.experience-container {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin-inline-start: 70px;
+    margin-inline-end: 20px;
+}
+.experience-card {
+    flex: 1;
+    border-style: solid;
+    border-radius: 16px;
+}
+.experience-card h2{
+    margin-left: 10px;
+}
+.experience-card h3{
+  margin-left: 10px;
+}
+.experience-card h4z{
+  margin-left: 10px;
+}
+.experience-card img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: 20px;
+}
+/* education */
+#education {
+  background-color: #07374a;
+  padding: 3px;
+  height: 100vh;
+}
+#education h1 {
+  font-family: 'Black Ops One', cursive;
+  text-decoration: underline;
+  margin-bottom: 40px;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: #25b79f;
+}
+.education-container {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  margin-inline-start: 70px;
+  margin-inline-end: 20px;
+  
+}
+.education-card {
+  flex: 1;
+  border-style: solid;
+  border-radius: 16px;
+  color: #25b79f;
+}
+.education-card h2{
+  margin-left: 10px;
+}
+.education-card h3{
+margin-left: 10px;
+}
+.education-card h4z{
+margin-left: 10px;
+}
+.education-card img {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-bottom: 20px;
+}
+
+/* skills */
+#skills {
+  background-color: #25b79f;
+  padding: 3px;
+  height: 100vh;
+}
+/* interest */
+#interest {
+  background-color: #07374a;
+  padding: 3px;
+  height: 100vh;
+}
+/* award */
+#award {
+  background-color: #25b79f;
+  padding: 3px;
+  height: 100vh;
+}
